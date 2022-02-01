@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+ 
+  build:
+    commands:
+      - echo "hello from cb"
+artifacts:
+  files:
+    - index.html
+  base-directory: 'target'
