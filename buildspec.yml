@@ -6,5 +6,5 @@ phases:
       - echo "hello from cb"
 artifacts:
   files:
-    - index.html
-  base-directory: 'target'
+    - '**/*'
+  name: CB-$AWS_REGION 
